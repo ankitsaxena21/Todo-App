@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Todo App</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js" defer></script>
+</head>
+
+<body>
+	<h2>Todo App</h2>
+	<div class="filter-container">
+		<form>
+			<input type="text" id="filter" class="filter" placeholder="Filter tasks..." />
+			<button class="search">Filter Tasks</button>
+		</form>
+	</div>
+	<div class="container">
+		<div class="box tasks bg1">
+			<div class="box-sub">
+				<form id="myForm">
+					<input type="text" class="task input" />
+					<button class="add">Add Task</button>
+				</form>
+			</div>
+			<div class="tasks" id="lists">
+
+			</div>
+
+		</div>
+		<div class="box working">
+			<div class="box-sub">Working</div>
+			<div id="working" class="tasks">
+
+			</div>
+		</div>
+		<div class="box completed">
+			<div class="box-sub">Completed</div>
+			<div id="completedList" class="tasks">
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
