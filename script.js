@@ -179,7 +179,7 @@ function getDragAfterItem(box, y) {
 function filterTasks(e) {
     var text = e.target.value;
     Array.from(allTasks).forEach(function (task) {
-        if (task.innerText.slice(0, -6).indexOf(text) != -1) {
+        if (task.innerText.slice(0, -5).indexOf(text) != -1) {
             task.style.display = "block";
         } else {
             task.style.display = "none";
