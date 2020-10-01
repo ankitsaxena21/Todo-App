@@ -8,6 +8,11 @@ body{
 	background: linear-gradient(to right, rgb(206, 9, 206), rgb(13, 13, 177));
 
 }
+
+h2 {
+	font-style: oblique;
+}
+
 form{
 	display: flex
 }
